@@ -1,0 +1,112 @@
+{
+  "pets": [
+    {
+      "id": "1a2b",
+      "especie": "felina",
+      "nome": "Mimi",
+      "raca": "Siamês",
+      "idade": 2,
+      "descricao": "Gata carinhosa que adora dormir ao sol e brincar com lã.",
+      "url": "https://www.petlife.com.br/blog/assets/post/gato-siames-66193a79ad2a7b18526f5497/quanto-custa-siam%C3%AAs.webp"
+    },
+    {
+      "id": "2b3c",
+      "especie": "canina",
+      "nome": "Rex",
+      "raca": "Labrador",
+      "idade": 4,
+      "descricao": "Cão amigável e ativo, ótimo para famílias com crianças.",
+      "url": "https://petanjo.com/blog/wp-content/uploads/2021/11/labrador-tudo-sobre-a-raca.jpg"
+    },
+    {
+      "id": "3c4d",
+      "especie": "felina",
+      "nome": "Luna",
+      "raca": "Persa",
+      "idade": 3,
+      "descricao": "Gata calma que gosta de colo e ambientes tranquilos.",
+      "url": "https://www.petz.com.br/blog/wp-content/uploads/2023/01/tipos-de-gato-persa-3.jpg"
+    },
+    {
+      "id": "4d5e",
+      "especie": "canina",
+      "nome": "Max",
+      "raca": "Beagle",
+      "idade": 5,
+      "descricao": "Curioso e brincalhão, ideal para quem tem quintal.",
+      "url": "https://blog.polipet.com.br/wp-content/uploads/2023/01/AdobeStock_168506725-445x445.jpeg"
+    },
+    {
+      "id": "5e6f",
+      "especie": "felina",
+      "nome": "Simba",
+      "raca": "Maine Coon",
+      "idade": 2,
+      "descricao": "Grande e sociável, ama companhia e escalar móveis.",
+      "url": "https://framerusercontent.com/images/T8je8KOib5f8aE1iKk0icDxALU.jpeg"
+    },
+    {
+      "id": "6f7g",
+      "especie": "canina",
+      "nome": "Bella",
+      "raca": "Bulldog",
+      "idade": 6,
+      "descricao": "Tranquila e leal, prefere cochilar do que correr.",
+      "url": "https://cloudfront-us-east-1.images.arcpublishing.com/estadao/FFI3KU4I5RHTDJWZJMQGZBNL3Y.jpg"
+    },
+    {
+      "id": "7g8h",
+      "especie": "felina",
+      "nome": "Oscar",
+      "raca": "Bengal",
+      "idade": 1,
+      "descricao": "Ativo e esperto, adora subir em prateleiras altas.",
+      "url": "https://fotos.amomeupet.org/uploads/stories/story_46_63d068951a3db.jpg"
+    },
+    {
+      "id": "8h9i",
+      "especie": "canina",
+      "nome": "Lola",
+      "raca": "Poodle",
+      "idade": 3,
+      "descricao": "Inteligente e dócil, fácil de adestrar e muito carinhosa.",
+      "url": "https://diariodonordeste.verdesmares.com.br/image/contentid/policy:7.4646347:1654206990/Poodle-1.jpg?f=default&$p$f=a4a115b"
+    },
+    {
+      "id": "9i0j",
+      "especie": "felina",
+      "nome": "Nina",
+      "raca": "Sphynx",
+      "idade": 4,
+      "descricao": "Muito afetuosa e adora ficar no colo, mesmo sem pelos.",
+      "url": "https://cobasi.vteximg.com.br/arquivos/ids/860444/sphynx.png?v=637703573339370000"
+    },
+    {
+      "id": "0j1k",
+      "especie": "canina",
+      "nome": "Charlie",
+      "raca": "Golden Retriever",
+      "idade": 5,
+      "descricao": "Amável e obediente, ótimo companheiro para qualquer lar.",
+      "url": "https://www.dogvibe.com.br/wp-content/uploads/2023/06/guia_racas_golden_retriever_dogvibe.jpg"
+    },
+    {
+      "id": "3e34",
+      "especie": "canina",
+      "nome": "Stitch",
+      "raca": "Maltês",
+      "idade": 2,
+      "descricao": "Pequeno e alegre, adora brincar e receber atenção.",
+      "url": "https://meuamigopet.com.br/wp-content/uploads/2019/10/714-maltes-389190364.jpg"
+    },
+    {
+      "id": "fac9",
+      "especie": "felina",
+      "nome": "Garfield",
+      "raca": "Gato persa",
+      "idade": 6,
+      "descricao": "Preguiçoso e guloso, ama petiscos e longas sonecas.",
+      "url": "https://br.cats.com/wp-content/uploads/2022/03/garfield-cat-breed-compressed.jpg"
+    }
+  ]
+}

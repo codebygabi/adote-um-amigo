@@ -146,15 +146,18 @@ body {
 
 .pet__info {
     padding: 0.5rem 0.5rem 0 0;
+    width: 60%;
+    height: 80%;
 }
 
 .pet__img img {
-    width: 188px;
+    width: 192px;
     height: 192px;
-    max-width: 188px;
+    max-width: 192px;
     max-height: 192px;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
+    border-radius: 1rem;
 }
 
 .pet__name {
@@ -164,6 +167,7 @@ body {
 .pet__description {
     margin-top: 1rem;
     font-size: 0.8rem;
+    height: 3rem;
 }
 
 .icons {
