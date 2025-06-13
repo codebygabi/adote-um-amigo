@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>AdoteUmAmigo</title>
+</head>
+
+<body>
+    <div class="content">
+        <header class="header">
+            <div class="header__logo">
+                <img src="assets/img/logo.svg" alt="Logomarca AdoteUmAmigo">
+            </div>
+
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__item"><a href="index.html">Início</a></li>
+                    <li class="header__nav__item"><a href="pets.html">Pets disponíveis</a></li>
+                    <li class="header__nav__item"><a href="sobre.html">Sobre nós</a></li>
+                </ul>
+            </nav>
+
+            <a class="header__cta active_button" href="cadastrar-pet.html">
+                <img src="assets/img/pata_img.svg" alt="Pata de cachorro">
+                Cadastrar pet</a>
+        </header>
+
+        <main class="container container_new_pet">
+            <div class="container__text">
+                <h1>Cadastrar pet</h1>
+                <form class="form_new_pet" action="#">
+                    <div class="input">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="pet_name" placeholder="Informe o nome do pet">
+                    </div>
+
+                    <div class="line">
+                        <div class="input">
+                            <label for="idade">Idade</label>
+                            <input type="number" name="idade" id="pet_age" placeholder="Idade do pet">
+                        </div>
+
+                        <div class="input">
+                            <label for="raca">Raça</label>
+                            <input type="text" name="raca" id="pet_specie" placeholder="Raça do pet">
+                        </div>
+                    </div>
+
+                    <div class="input">
+                        <label for="descricao">Descrição</label>
+                        <textarea name="descricao" id="pet__description"  placeholder="Forneça uma breve descrição" maxlength="70"></textarea>
+                    </div>
+
+                    <div class="input">
+                        <label for="foto">Foto (URL)</label>
+                        <input type="url" name="foto" id="pet_photo" placeholder="Link para imagem">
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button button_cancel">Cancelar</button>
+                        <button class="button button_save">Salvar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="container__image">
+                <img src="assets/img/form_img.svg" alt="Silhueta de um cachorro e um gato">
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>CodeByGabi - 2025</p>
+    </footer>
+</body>
+
+</html>
