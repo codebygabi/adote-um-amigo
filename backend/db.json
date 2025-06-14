@@ -2,7 +2,6 @@
   "pets": [
     {
       "id": "1a2b",
-      "especie": "felina",
       "nome": "Mimi",
       "raca": "Siamês",
       "idade": 2,
@@ -11,16 +10,14 @@
     },
     {
       "id": "2b3c",
-      "especie": "canina",
       "nome": "Rex",
       "raca": "Labrador",
-      "idade": 4,
+      "idade": "5",
       "descricao": "Cão amigável e ativo, ótimo para famílias com crianças.",
       "url": "https://petanjo.com/blog/wp-content/uploads/2021/11/labrador-tudo-sobre-a-raca.jpg"
     },
     {
       "id": "3c4d",
-      "especie": "felina",
       "nome": "Luna",
       "raca": "Persa",
       "idade": 3,
@@ -29,7 +26,6 @@
     },
     {
       "id": "4d5e",
-      "especie": "canina",
       "nome": "Max",
       "raca": "Beagle",
       "idade": 5,
@@ -38,7 +34,6 @@
     },
     {
       "id": "5e6f",
-      "especie": "felina",
       "nome": "Simba",
       "raca": "Maine Coon",
       "idade": 2,
@@ -47,7 +42,6 @@
     },
     {
       "id": "6f7g",
-      "especie": "canina",
       "nome": "Bella",
       "raca": "Bulldog",
       "idade": 6,
@@ -56,7 +50,6 @@
     },
     {
       "id": "7g8h",
-      "especie": "felina",
       "nome": "Oscar",
       "raca": "Bengal",
       "idade": 1,
@@ -65,7 +58,6 @@
     },
     {
       "id": "8h9i",
-      "especie": "canina",
       "nome": "Lola",
       "raca": "Poodle",
       "idade": 3,
@@ -74,7 +66,6 @@
     },
     {
       "id": "9i0j",
-      "especie": "felina",
       "nome": "Nina",
       "raca": "Sphynx",
       "idade": 4,
@@ -83,7 +74,6 @@
     },
     {
       "id": "0j1k",
-      "especie": "canina",
       "nome": "Charlie",
       "raca": "Golden Retriever",
       "idade": 5,
@@ -92,7 +82,6 @@
     },
     {
       "id": "3e34",
-      "especie": "canina",
       "nome": "Stitch",
       "raca": "Maltês",
       "idade": 2,
@@ -101,12 +90,35 @@
     },
     {
       "id": "fac9",
-      "especie": "felina",
       "nome": "Garfield",
       "raca": "Gato persa",
       "idade": 6,
       "descricao": "Preguiçoso e guloso, ama petiscos e longas sonecas.",
       "url": "https://br.cats.com/wp-content/uploads/2022/03/garfield-cat-breed-compressed.jpg"
+    },
+    {
+      "id": "542c",
+      "nome": "Frederico",
+      "raca": "Shih Tzu",
+      "idade": "3",
+      "descricao": "Tem aspecto corporal mais robusto e levemente comprido.",
+      "url": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2024/07/03/79816500-shih-tzu.jpg"
+    },
+    {
+      "id": "4115",
+      "nome": "Bob",
+      "raca": "Yorkshire terrier",
+      "idade": "1",
+      "descricao": "Não podem ficar muito tempo sozinhos mas é alegre",
+      "url": "https://jpimg.com.br/uploads/2023/07/yorkshire-terrier-tudo-o-que-voce-precisa-saber-sobre-essa-raca.jpg"
+    },
+    {
+      "id": "4065",
+      "nome": "Rubi",
+      "raca": "Gato birmanês",
+      "idade": "2",
+      "descricao": "Manhoso e gosta de brincar bastante",
+      "url": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2024/02/27/1864131172-gatobirmanes.jpeg"
     }
   ]
 }

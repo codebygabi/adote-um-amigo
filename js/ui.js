@@ -15,7 +15,8 @@ const ui = {
 
     async addAPet(pet) {
         const listOfPets = document.querySelector(".pets")
-        
+        if (!listOfPets) return;
+
         const li = document.createElement("li")
         li.classList.add("pets__information")
 
@@ -51,6 +52,10 @@ const ui = {
         imgEdit.alt = "Ícone de edição"
         buttonEdit.appendChild(imgEdit)
 
+        buttonEdit.addEventListener("click", () => {
+            window.location.href = `../editar-pet.html?id=${pet.id}`;
+        })
+
         const buttonDelete = document.createElement("button")
         const imgDelete = document.createElement("img")
         imgDelete.src = "assets/img/trash.svg"
@@ -64,6 +69,21 @@ const ui = {
         listOfPets.appendChild(li)
 
     },
+
+    async fillForm(petId) {
+        try {
+            const pet = await api.getPetById(petId)
+
+            document.getElementById("pet_id").value = pet.id
+            document.getElementById("pet_name").value = pet.nome
+            document.getElementById("pet_specie").value = pet.raca
+            document.getElementById("pet_age").value = pet.idade
+            document.getElementById("pet_description").value = pet.descricao
+            document.getElementById("pet_photo").value = pet.url
+        } catch (error) {
+            console.error("Erro ao buscar informações");
+        }
+    }
 }
 
 export default ui
