@@ -1,6 +1,7 @@
+const ENDPOINT = "http://localhost:3000/pets"
+
 const api = {
     async getPets() {
-        const ENDPOINT = "http://localhost:3000/pets"
         try {
             const response = await fetch(ENDPOINT)
             return await response.json()
@@ -11,9 +12,8 @@ const api = {
     },
 
     async getPetById(petId) {
-        const ENDPOINT = `http://localhost:3000/pets/${petId}`
         try {
-            const response = await fetch(ENDPOINT)
+            const response = await fetch(`${ENDPOINT}/${petId}`)
             return await response.json()
         } catch (error) {
             console.error("Erro ao buscar informações", error);
@@ -22,7 +22,6 @@ const api = {
     },
 
     async savePet(pet) {
-        const ENDPOINT = "http://localhost:3000/pets"
         try {
             const response = await fetch(ENDPOINT, {
                 method: "POST",
@@ -38,9 +37,8 @@ const api = {
     },
 
     async editPet(pet) {
-        const ENDPOINT = `http://localhost:3000/pets/${pet.id}`
         try {
-            const response = await fetch(ENDPOINT, {
+            const response = await fetch(`${ENDPOINT}/${pet.id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -50,6 +48,16 @@ const api = {
             return await response.json()
         } catch (error) {
             console.error("Erro ao editar informações", error);
+        }
+    },
+
+    async deletePet(pet) {
+        try {
+            const response = await fetch(`${ENDPOINT}/${pet.id}`, {
+                method: "DELETE",
+            })
+        } catch (error) {
+            console.error("Erro ao excluir informações", error);
         }
     }
 }

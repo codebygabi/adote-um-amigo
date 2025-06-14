@@ -51,16 +51,24 @@ const ui = {
         imgEdit.src = "assets/img/pencil.svg"
         imgEdit.alt = "Ícone de edição"
         buttonEdit.appendChild(imgEdit)
-
-        buttonEdit.addEventListener("click", () => {
-            window.location.href = `../editar-pet.html?id=${pet.id}`;
-        })
+        buttonEdit.onclick = () => {
+            window.location.href = `../editar-pet.html?id=${pet.id}`
+        }
 
         const buttonDelete = document.createElement("button")
         const imgDelete = document.createElement("img")
         imgDelete.src = "assets/img/trash.svg"
         imgDelete.alt = "Ícone de exclusão"
         buttonDelete.appendChild(imgDelete)
+        buttonDelete.onclick = () => {
+            try {
+                api.deletePet(pet)
+                alert("Exclusão realizada com sucesso")
+            } catch (error) {
+                console.error("Erro ao realizar exclusão");
+                alert("Erro ao realizar exclusão")
+            }
+        }
 
         divIcons.append(buttonEdit, buttonDelete)
         divPetInfo.append(divIcons)
@@ -71,6 +79,7 @@ const ui = {
     },
 
     async fillForm(petId) {
+        const imgContainer = document.querySelector(".image__pet")
         try {
             const pet = await api.getPetById(petId)
 
@@ -80,6 +89,7 @@ const ui = {
             document.getElementById("pet_age").value = pet.idade
             document.getElementById("pet_description").value = pet.descricao
             document.getElementById("pet_photo").value = pet.url
+            imgContainer.src = pet.url
         } catch (error) {
             console.error("Erro ao buscar informações");
         }

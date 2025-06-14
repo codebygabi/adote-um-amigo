@@ -27,8 +27,6 @@ async function submissonForm(event) {
         const idade = document.getElementById("pet_age").value
         const descricao = document.getElementById("pet_description").value
         const url = document.getElementById("pet_photo").value
-        console.log(id);
-        
 
         if (id) {
             await api.editPet({ id, nome, raca, idade, descricao, url })

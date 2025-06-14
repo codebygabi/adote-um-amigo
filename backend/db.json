@@ -97,14 +97,6 @@
       "url": "https://br.cats.com/wp-content/uploads/2022/03/garfield-cat-breed-compressed.jpg"
     },
     {
-      "id": "542c",
-      "nome": "Frederico",
-      "raca": "Shih Tzu",
-      "idade": "3",
-      "descricao": "Tem aspecto corporal mais robusto e levemente comprido.",
-      "url": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2024/07/03/79816500-shih-tzu.jpg"
-    },
-    {
       "id": "4115",
       "nome": "Bob",
       "raca": "Yorkshire terrier",
@@ -116,7 +108,7 @@
       "id": "4065",
       "nome": "Rubi",
       "raca": "Gato birmanês",
-      "idade": "2",
+      "idade": "3",
       "descricao": "Manhoso e gosta de brincar bastante",
       "url": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2024/02/27/1864131172-gatobirmanes.jpeg"
     }
